@@ -1,0 +1,189 @@
+html, body {
+    background-color: #a182ba;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color:rgb(241, 241, 241);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #cfbaec;
+  }
+
+h4 { 
+    color: #c4c4c4;
+    font-size: 12px;
+    height: auto;
+    writing-mode: vertical-rl;
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 9999;
+}
+
+h5 { 
+    color: #c4c4c4;
+    font-size: 12px;
+    height: auto;
+    writing-mode: vertical-rl;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 9999;
+
+}
+
+#container {
+    background-color: #fdf9f9;
+    width: calc(100% - 70px);
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    border-bottom: #8c97cd solid 1px;
+    width:100%;
+    justify-content: space-around;
+}
+
+.izq {
+    display: flex;
+    align-items: center;
+}
+
+.desc h1 {
+    color: #5eafba;
+    font-size:60px;
+    margin:5px;
+}
+
+.desc h2 {
+    color: #5eafba;
+    font-size:20px;
+    line-height: 25px;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.desc p {
+    color:#000000;
+    font-family: "Roboto Slab", serif;
+}
+b {
+    color: #86cacc;
+}
+
+a {
+    color: #86cacc;
+}
+
+.gifbox {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+
+.nombre {
+    color:#5eafba;
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+@media (max-width: 1280px) {
+
+    .gifbox {
+    max-width: 1072px;
+}
+
+    
+}
+
+@media (max-width: 1024px) {
+    .gifbox {
+    max-width: 804px;
+}
+h4 { 
+    left: 5px;
+}
+
+h5 { 
+    right: 5px;
+}
+ 
+}
+
+@media (max-width: 768px) {
+h4 { 
+    font-size:8px;
+    left: 5px;
+}
+
+h5 { 
+    font-size:8px;
+    right: 5px;
+}
+
+.desc h1 {
+    font-size:40px;
+}
+
+.desc h2 {
+    font-size:15px;
+    line-height: 15px;
+}
+
+p {
+    font-size:12px;
+}
+
+img {
+    max-width: 25%;
+}
+
+.gifbox {
+    max-width: 600px;
+}
+
+    
+}
+
+@media (max-width: 480px) {
+
+    #container {
+    width:90%;
+}
+
+.desc h1 {
+    font-size:30px;
+}
+
+.desc h2 {
+    font-size:10px;
+    line-height: 10px;
+}
+
+p {
+    font-size:10px;
+}
+
+}
+    
